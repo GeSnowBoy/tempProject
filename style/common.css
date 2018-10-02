@@ -8,7 +8,9 @@ a, a:hover {
     color: #fff;
     text-decoration: none;
 }
-
+body{
+    min-width: 1280px;
+}
 .fl {
     float: left;
 }
