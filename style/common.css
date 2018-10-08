@@ -8,10 +8,7 @@ a, a:hover {
     color: #fff;
     text-decoration: none;
 }
-.color-1 {
-    color:#29B1E2 ;
 
-}
 body {
     min-width: 1280px;
 }
@@ -27,10 +24,11 @@ body {
 .energy-container {
     width: 1200px;
     margin: 0 auto;
+
 }
 
 .main-bg {
-    background: url(../img/bannerbj.png) center top no-repeat #140F39;
+    background: rgba(246, 243, 254, 1);
     background-size: 100% auto;
     min-height: 400px;
 }
@@ -49,7 +47,7 @@ body {
 }
 
 .nav-list a {
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 .nav-list a.active {
@@ -58,28 +56,37 @@ body {
 
 /*主要内容*/
 .energy-body {
-    color: #fff;
+    color: #474847;
+    background: url(../img/ditubj.png) center 300px no-repeat;
+    background-size: 100% auto;
+}
+
+nav {
+    background: url(../img/bannerbj.png) center top;
+    height: 100vh;
 }
 
 .first-main {
-
+    color: #fff;
     overflow: hidden;
     width: 100%;
+
 }
 
 .first-main .title {
     padding-top: 240px;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 600;
 }
 
 .first-main .sub {
-    font-size: 30px;
-    margin-top: 40px;
+    font-size: 48px;
+    margin-top: 50px;
 }
 
 .first-main .main-show-img {
     padding-top: 50px;
+    width: 760px;
     opacity: 0.7;
 }
 
@@ -89,11 +96,14 @@ body {
 }
 
 #core-business .title {
-    font-size: 32px;
+    margin: 50px 0;
+    font-size: 56px;
     text-align: center;
-    color: #fff;
     font-weight: normal;
     padding: 50px 0;
+    background: url(../img/business.png) center center no-repeat;
+    background-size: contain;
+
 }
 
 .core-business-list {
@@ -119,26 +129,13 @@ body {
 .application {
     overflow: hidden;
     margin: 200px 0 130px;
-}
-.application .title{
-    font-size: 32px;
     text-align: center;
+}
+
+.application .title {
+    font-size: 56px;
     margin-bottom: 30px;
 
-}
-.application-left {
-    width: 50%;
-    float: left;;
-}
-
-.application-left img {
-    width: 90%;
-}
-
-.application-right {
-    float: right;
-    /* width: 50%; */
-    text-align: center;
 }
 
 .por {
@@ -146,23 +143,13 @@ body {
 }
 
 .application-title {
-    position: absolute;
-    top: 129px;
-    left: 0;
-    right: 10%;
-    text-align: center;
-    margin: auto;
-    font-size: 30px;
+    font-size: 28px;
+    margin: 56px auto 38px;
 }
 
-
-
-.application-right .sub {
-    font-size: 20px;
-    width: 365px;
-    height: 82px;
-    padding: 100px 0 0 50px;
-    text-align: left;
+.application .sub {
+    font-size: 18px;
+    color: #000000;
 }
 
 .side-chain {
@@ -178,13 +165,13 @@ body {
 }
 
 .side-chain .title {
-    font-size: 32px;
+    font-size: 56px;
     text-align: center;
 }
 
 .side-chain .side-chain-item {
     position: absolute;
-    background: #161D4D;
+    background: #fff;
     width: 100px;
     padding: 12px 20px;
     line-height: 24px;
@@ -194,7 +181,8 @@ body {
 .side-chain .side-chain-item:after, .side-chain .side-chain-item:before {
     content: '';
     position: absolute;
-    border: 1px solid #fff;
+    border: 2px solid #28afdf;
+    border: 2px solid #28afdf;
     width: 10px;
     height: 10px;
     font-size: 16px;
@@ -263,12 +251,15 @@ body {
     text-align: center;
     overflow: hidden;
     font-size: 0;
+    margin-bottom: 80px;
 }
 
 #cooperation .title {
-    font-size: 32px;
+    font-size: 56px;
     text-align: center;
-    padding: 200px 0 60px;
+    padding: 60px 0;
+    background: url(../img/CooperativePartner.png) center center  no-repeat;
+    background-size: contain;
 }
 
 .cooperation-item {
@@ -281,7 +272,7 @@ body {
 #call-us {
     color: #fff;
     font-size: 16px;
-    background: rgba(0, 0, 0, 0.2);
+    background: linear-gradient(180deg, rgba(18, 127, 209, 1) 0%, rgba(0, 39, 95, 1) 100%);
     padding: 100px 0;
 }
 
@@ -308,7 +299,7 @@ body {
 }
 
 .side-chain-new .title {
-    font-size: 32px;
+    font-size: 56px;
     padding: 30px 0;
     text-align: center;
 }
@@ -343,24 +334,31 @@ body {
 #grid-list {
     text-align: center;
     font-size: 0;
-    margin: 90px 0;
+    margin: 60px 0;
+}
+
+#grid-list .title {
+    font-size: 32px;
+    margin-bottom: 30px;
 }
 
 .grid-list-item {
-    width: 330px;
-    height: 330px;
     display: inline-block;
-
-    vertical-align: top;
-    background-color: #161D4D;
+    width: 148px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 4px;
+    color: rgba(71, 72, 71, 1);
+    font-size: 18px;
+    border: 1px solid rgba(40, 175, 223, 1);
+    margin-right: 62px;
 
 }
 
-.grid-list-item span {
-    font-size: 24px;
-    line-height: 330px;
+.grid-list-item:last-child {
+    margin-right: 0;
 }
 
-.grid-list-item img {
-    vertical-align: top;
+.title.color-1 {
+    font-size: 48px;
 }

@@ -22,7 +22,7 @@ body {
 
 /*主要内容*/
 .energy-body {
-    color: #fff;
+
 }
 
 .first-main {
@@ -62,7 +62,6 @@ body {
 #core-business .title {
     font-size: 26px;
     text-align: center;
-    color: #fff;
     font-weight: normal;
     padding: 30px 0;
 }
@@ -82,43 +81,24 @@ body {
     overflow: hidden;
     position: relative;
     margin: 0;
-    padding: 50px 0;
+    padding: 50px 0 0;
     clear: both;
 }
 
-.application-left {
-    width: 100%;
-    float: left;
-}
 
-.application-left img {
-    width: 90%;
-    display: block;
-    margin: auto;
-}
 
-.application-right {
-    position: absolute;
-    top: 190px;
-    left: 40px;
-    right: 40px;
-}
 
 .por {
     position: relative;
 }
 
 .application-title {
-    position: absolute;
-    top: 29px;
-    left: 0;
-    right: 0;
     text-align: center;
     margin: auto;
     font-size: 18px;
 }
 
-.application-right .sub {
+.application .sub {
     font-size: 16px;
     width: auto;
     height: 82px;
@@ -149,12 +129,11 @@ body {
 
 .side-chain .side-chain-item {
     position: relative;
-    background: #161D4D;
+    background: #fff;
     width: 49% !important;
-    padding: 12px 20px;
+    padding: 12px 10px;
     box-sizing: border-box;
     line-height: 24px;
-    font-size: 16px;
     font-size: 10px;
     display: inline-block;
     bottom: 0 !important;
@@ -172,7 +151,6 @@ body {
 .side-chain .side-chain-item:after, .side-chain .side-chain-item:before {
     content: '';
     position: absolute;
-    border: 1px solid #fff;
     width: 10px;
     height: 10px;
     font-size: 16px;
@@ -264,7 +242,6 @@ body {
 #call-us {
     color: #fff;
     font-size: 12px;
-    background: rgba(0, 0, 0, 0.2);
     padding: 10px;
 }
 
@@ -282,7 +259,7 @@ body {
 }
 
 .call-us-foot {
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -301,7 +278,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0;
-    /* margin: 9px auto 50px; */
+
     position: relative;
 }
 
@@ -340,18 +317,17 @@ body {
 
 .grid-list-item {
     width: 33%;
+    margin-right:20px;
+    margin-bottom: 10px;
     height: auto;
     display: inline-block;
     vertical-align: top;
-    background-color: #161D4D;
 }
 
-.grid-list-item span {
-    font-size: 12px;
-    line-height: 105px;
+.code-wrap{
+    float: none;
+    text-align: center;
 }
-
-.grid-list-item img {
-    vertical-align: top;
-    width: 100%;
+.code{
+    width: 120px;
 }
