@@ -8,9 +8,11 @@ a, a:hover {
     color: #fff;
     text-decoration: none;
 }
-.h100{
+
+.h100 {
     height: 100%;
 }
+
 body {
     min-width: 1280px;
 }
@@ -54,7 +56,7 @@ body {
 }
 
 .nav-list a.active:after {
-  content: '';
+    content: '';
     position: absolute;
     width: 60px;
     height: 2px;
@@ -62,7 +64,7 @@ body {
     display: block;
     bottom: -10px;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
 }
 
 /*主要内容*/
@@ -102,19 +104,19 @@ nav {
 
 /*核心业务*/
 #core-business {
-
+    overflow: hidden;
 }
-.title{
+
+.title {
     font-size: 40px;
 }
+
 #core-business .title {
     margin: 50px 0;
     text-align: center;
     font-weight: normal;
     padding: 50px 0;
-    background: url(../img/business.png) center center no-repeat;
-    background-size: contain;
-    color:rgba(18, 127, 209, 1);
+    color: rgba(18, 127, 209, 1);
 
 }
 
@@ -124,7 +126,7 @@ nav {
 
 .core-business-item {
     float: left;
-    width: 33.3%;
+    width: 25%;
     text-align: center;
 }
 
@@ -140,12 +142,16 @@ nav {
 
 .application {
     overflow: hidden;
-    margin: 200px 0 130px;
+    margin: 120px 0 130px;
     text-align: center;
 }
 
+.application-img {
+    width: 657px;
+}
+
 .application .title {
-    margin-bottom: 30px;
+    margin-bottom: 77px;
 
 }
 
@@ -153,13 +159,14 @@ nav {
     position: relative;
 }
 
-.application-title {
-    font-size: 20px;
-    margin: 56px auto 38px;
-}
-
 .application .sub {
-    font-size: 18px;
+    font-size: 16px;
+    width: 267px;
+    overflow: hidden;
+    padding: 180px 63px;
+    text-align: left;
+    line-height: 1.4;
+    color: #000;
 }
 
 .side-chain {
@@ -180,35 +187,10 @@ nav {
 
 .side-chain .side-chain-item {
     position: absolute;
-    background: #fff;
     width: 100px;
     padding: 12px 20px;
     line-height: 24px;
     font-size: 14px;
-}
-
-.side-chain .side-chain-item:after, .side-chain .side-chain-item:before {
-    content: '';
-    position: absolute;
-    border: 2px solid #28afdf;
-    width: 10px;
-    height: 10px;
-    font-size: 16px;
-
-}
-
-.side-chain .side-chain-item:before {
-    top: 0;
-    left: 0;
-    border-right: none;
-    border-bottom: none;
-}
-
-.side-chain .side-chain-item:after {
-    bottom: 0;
-    right: 0;
-    border-left: none;
-    border-top: none;
 }
 
 .side-chain .side-chain-1 {
@@ -265,10 +247,8 @@ nav {
 
 #cooperation .title {
     text-align: center;
-    color:rgba(18, 127, 209, 1);
+    color: rgba(18, 127, 209, 1);
     padding: 60px 0;
-    background: url(../img/CooperativePartner.png) center center  no-repeat;
-    background-size: contain;
 }
 
 .cooperation-item {
@@ -346,27 +326,90 @@ nav {
 }
 
 #grid-list .title {
-    font-size: 32px;
-    margin-bottom: 30px;
+    font-size: 28px;
+    margin-bottom: 55px;
 }
 
 .grid-list-item {
     display: inline-block;
-    width: 148px;
-    height: 44px;
-    line-height: 44px;
-    border-radius: 4px;
-    color: rgba(71, 72, 71, 1);
-    font-size: 18px;
-    border: 1px solid rgba(40, 175, 223, 1);
-    margin-right: 62px;
+    width: 80px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 63px 0;
+    position: relative;
+}
 
+.grid-list-item:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 64px;
+    right: -63px;
+    top: 32px;
+    background-color: #909090;
+    opacity: .5;
+}
+
+.grid-list-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.grid-list-item-text {
+    margin-top: 20px;
+    display: block;
 }
 
 .grid-list-item:last-child {
     margin-right: 0;
 }
 
+.grid-list-item:last-child:before {
+    display: none;
+}
+
 .title.color-1 {
     font-size: 30px;
+}
+
+.nav.active {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background: rgba(18, 127, 209, 1);
+}
+
+.gvc {
+    margin: 140px 0;
+    text-align: center;
+
+}
+
+.gvc .title {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.gvc .sub-title {
+    font-size: 16px;
+    margin-bottom: 52px;
+}
+
+.gvc-body {
+    font-size: 0;
+}
+
+.gvc-body .gvc-body-item {
+    width: 33.3%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 40px;
+    vertical-align: top;
+}
+
+.gvc-body-item-title {
+    font-size: 18px;
+    margin: 24px 0 15px;
 }
