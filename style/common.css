@@ -17,6 +17,19 @@ body {
     min-width: 1280px;
 }
 
+.zh-show .en {
+    display: none;
+}
+.zh-show .zh-flag{
+    color:#28afdf;
+}
+.en-show .zh {
+    display: none;
+}
+.en-show .en-flag{
+    color:#28afdf;
+}
+
 .fl {
     float: left;
 }
@@ -53,9 +66,10 @@ body {
 .nav-list a {
     padding: 0 40px;
     position: relative;
+    cursor: pointer;
 }
 
-.nav-list a.active:after {
+.nav-list a:hover:after {
     content: '';
     position: absolute;
     width: 60px;
@@ -92,9 +106,17 @@ nav {
     font-weight: 600;
 }
 
+.first-main .title .en {
+    font-size: 44px;
+}
+
 .first-main .sub {
     font-size: 30px;
     margin-top: 50px;
+}
+
+.first-main .sub .en {
+    font-size: 26px;
 }
 
 .first-main .main-show-img {
@@ -309,7 +331,7 @@ nav {
 }
 
 .side-chain-new-container-description {
-    width: 262px;
+    width: 302px;
     font-size: 16px;
     font-weight: 400;
     line-height: 36px;

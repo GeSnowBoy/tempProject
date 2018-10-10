@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/mibile.css" media="screen and (max-width:700px)">
 </head>
-<body>
+<body class="zh-show">
 <div class="main-bg">
     <nav style="position: relative;z-index: 1;">
         <!--导航-->
@@ -18,11 +18,23 @@
             <div class="energy-container">
                 <a href="#"> <img src="./img/logo.png" alt="" class="logo"></a>
                 <div class="nav-list">
-                    <a class="active" href="#">首页</a>
-                    <a href="#core-business">核心业务</a>
-                    <a href="#cooperation">合作伙伴</a>
-                    <a href="#call-us">联系我们</a>
-                    <!--  <a href="">中/english</a>-->
+                    <a  href="#">
+                        <span class="zh">首页</span>
+                        <span class="en">Home</span>
+                    </a>
+                    <a href="#core-business">
+                        <span class="zh">核心业务</span>
+                        <span class="en">Core Work</span>
+                    </a>
+                    <a href="#cooperation">
+                        <span class="zh">合作伙伴</span>
+                        <span class="en">Partner</span>
+                    </a>
+                    <a href="#call-us">
+                        <span class="zh">联系我们</span>
+                        <span class="en">Contact Us</span>
+                    </a>
+                    <a class="toggleLanguage"><span class="zh-flag">中</span> / <span class="en-flag">En</span></a>
                 </div>
             </div>
         </div>
@@ -30,8 +42,14 @@
         <div class="energy-container">
             <div class="first-main wow bounceInUp">
                 <div class="fl ">
-                    <h1 class="title">能链科技</h1>
-                    <div class="sub">区块链技术底层输出</div>
+                    <h1 class="title">
+                        <span class="zh">能链科技</span>
+                        <span class="en">Power LinksTechnology</span>
+                    </h1>
+                    <div class="sub">
+                        <span class="zh">区块链技术底层输出</span>
+                        <span class="en">Blockchain Underlying Technology Output</span>
+                    </div>
                 </div>
                 <div class="fr">
                     <img src="./img/main_show_img.png" class="main-show-img" alt="">
@@ -45,45 +63,77 @@
 
         <div class="energy-container">
             <div id="core-business">
-                <h2 class="title">核心业务</h2>
+                <h2 class="title">
+                    <span class="zh">核心业务</span>
+                    <span class="en">The Core Business</span>
+                </h2>
 
                 <div class="core-business-item wow bounceInUp" data-wow-delay="0.6s">
                     <img src="./img/yytz.png" alt="">
-                    <div>Echoin公链</div>
+                    <div>
+                        <span class="zh">Echoin公链</span>
+                        <span class="en">Echoin public chain</span>
+                    </div>
                 </div>
 
                 <div class="core-business-item wow bounceInUp" data-wow-delay="0.8s">
                     <img src="./img/qyfw.png" alt="">
-                    <div>Plasma侧链</div>
+                    <div>
+                        <span class="zh">Plasma侧链</span>
+                        <span class="en">Plasma side chain</span>
+                    </div>
                 </div>
                 <div class="core-business-item wow bounceInUp" data-wow-delay="0.9s">
                     <img src="./img/GVC.png" alt="">
-                    <div>GVC引力资本</div>
+                    <div>
+                        <span class="zh">GVC引力资本</span>
+                        <span class="en">GVC.PE</span>
+                    </div>
                 </div>
                 <div class="core-business-item wow bounceInUp" data-wow-delay="1s">
 
                     <img src="./img/jszc.png" alt="">
-                    <div>新媒体</div>
+                    <div>
+                        <span class="zh">新媒体</span>
+                        <span class="en">New media</span>
+                    </div>
                 </div>
             </div>
 
         </div>
         <div class="energy-container">
             <div class="application">
-                <div class="title color-1">Echoin公链</div>
+                <div class="title color-1">
+                    <span class="zh">Echoin公链</span>
+                    <span class="en">Echoin Public Chain</span>
+                </div>
                 <img src='./img/111.png' class="fl application-img">
-                <div class="sub">能源“万物物联”,将物理世界的能源设备通过成千上万Energy-ioT节点相连联通，实现能源数据无缝上链。</div>
+                <div class="sub zh">能源“万物物联”,将物理世界的能源设备通过成千上万Energy-ioT节点相连联通，实现能源数据无缝上链。</div>
+                <div class="sub en">Energy “internet of things”,Energy data is seamlessly linked by connecting energy
+                    devices in the physical world through thousands of Energy-ioT nodes.
+                </div>
 
             </div>
         </div>
         <div class="energy-container">
             <!--Plasma侧链技术-->
             <div class="side-chain-new">
-                <div class="title color-1">Plasma侧链技术</div>
+                <div class="title color-1">
+                    <span class="zh">Plasma侧链技术</span>
+                    <span class="en">Plasma Side Chain Technology</span>
+                </div>
                 <div class="side-chain-new-container">
-                    <h3 class="side-chain-new-container-h3  wow bounceInUp">面向能源公共事业构建-法国电力微电网</h3>
+                    <h3 class="side-chain-new-container-h3  wow bounceInUp">
+                        <span class="zh">面向能源公共事业构建-法国电力微电网</span>
+                        <span class="en">Build for Energy Utilities – Electricite De France Microgrid</span>
+                    </h3>
                     <div class="side-chain-new-container-description  wow bounceInUp">
-                        Echoin积极与能源公共事业机构进行“主网微电网”的并网改造解决方案，为能源公共事业机构进行能源变革提供技术支撑。
+                        <span class="zh">
+                            Echoin积极与能源公共事业机构进行“主网微电网”的并网改造解决方案，为能源公共事业机构进行能源变革提供技术支撑。
+                        </span>
+                        <span class="en">
+                            Echoin is actively working with energy utilities to implement a grid-connected solution for the “Main Network Microgrid” to provide technical support for energy revolutions.
+                        </span>
                     </div>
                     <img src="./img/slide_chain_main.png" alt="">
                 </div>
@@ -91,29 +141,47 @@
         </div>
         <div class="energy-container">
             <div class="gvc">
-                <div class="title">GVC引力资本</div>
-                <div class="sub-title">全球投资视野，区块链生态投行</div>
+                <div class="title">
+                    <span class="zh">GVC引力资本</span>
+                    <span class="en">GVC.PE</span>
+                </div>
+                <div class="sub-title">
+                    <span class="zh">全球投资视野，区块链生态投行</span>
+                    <span class="en">Global investment horizon，blockchain ecological investment bank</span>
+                </div>
                 <div class="gvc-body">
 
                     <div class="gvc-body-item">
                         <img src="./img/OA.png" class="gvc-body-item-img">
-                        <div class="gvc-body-item-title">定位</div>
+                        <div class="gvc-body-item-title">
+                            <span class="zh">定位</span>
+                            <span class="en"> Orientation</span>
+                        </div>
                         <div class="gvc-body-item-p">
-                            专注于区块链行业，探索发掘 <br>全球最具价值的早期项目
+                            <span class="zh">专注于区块链行业，探索发掘 <br>全球最具价值的早期项目</span>
+                            <span class="en">Focus on the blockchain industry，explore the world's most valuable early projects</span>
                         </div>
                     </div>
                     <div class="gvc-body-item">
                         <img src="./img/OB.png" class="gvc-body-item-img">
-                        <div class="gvc-body-item-title">使命</div>
+                        <div class="gvc-body-item-title">
+                            <span class="zh">使命</span>
+                            <span class="en">Mission</span>
+                        </div>
                         <div class="gvc-body-item-p">
-                            致力于区块链知识和技术产学研创新，<br>推动区块链技术在全球的产业化发展
+                            <span class="zh">致力于区块链知识和技术产学研创新，<br>推动区块链技术在全球的产业化发展</span>
+                            <span class="en">Committed to the innovation of blockchain knowledge and technology, promote the industrialization of blockchain technology all over the world</span>
                         </div>
                     </div>
                     <div class="gvc-body-item">
                         <img src="./img/OC.png" class="gvc-body-item-img">
-                        <div class="gvc-body-item-title">优势</div>
+                        <div class="gvc-body-item-title">
+                            <span class="zh">优势</span>
+                            <span class="en">Strength</span>
+                        </div>
                         <div class="gvc-body-item-p">
-                            拥有强大的资金实力及国际 <br>化专业投资经验
+                            <span class="zh">拥有强大的资金实力及国际 <br>化专业投资经验</span>
+                            <span class="en">Have strong financial strength， international and professional investment experience</span>
                         </div>
                     </div>
                 </div>
@@ -123,56 +191,87 @@
             <!--侧链-->
             <div class="energy-container">
                 <div class="title color-1">
-                    新媒体
+                    <span class="zh">新媒体</span>
+                    <span class="en">New Media</span>
                 </div>
                 <div data-wow-delay="0.3s" class="wow bounceInDown side-chain-item side-chain-1">
-                    <h3> 【一号快讯】</h3>
-                    区块链行业快讯资讯，目前与数十家企业达成年度合作伙伴
+                    <h3 class="zh"> 【一号快讯】</h3>
+                    <h3 class="en"> 【YIHAO.NEWS】</h3>
+                    <span class="zh">区块链行业快讯资讯，目前与数十家企业达成年度合作伙伴</span>
+                    <span class="en">Blockchain industry express，currently cooperate with dozens of companies annually.</span>
                 </div>
                 <div data-wow-delay="0.4s" class="wow bounceInDown side-chain-item side-chain-2">
-                    <h3>【一号项目】</h3>
-                    区块链+行业的项目报道方式，目前已经采访几十家行业项目代表公司，例如教育，金融，娱乐，能源，电商等代表企业
+                    <h3 class="zh">【一号项目】</h3>
+                    <h3 class="en">【YIHAO.PROJECT】</h3>
+                    <span class="zh">区块链+行业的项目报道方式，目前已经采访几十家行业项目代表公司，例如教育，金融，娱乐，能源，电商等代表企业</span>
+                    <span class="en">With blockchain project reporting, we interviewed many key project companies, such as education, finance, entertainment, energy, e-commerce company.</span>
                 </div>
+
                 <div data-wow-delay="0.5s" class="wow bounceInDown side-chain-item side-chain-3">
-                    <h3>【一号人物】</h3>
-                    采访币圈大佬人物，区块链行业代表
+                    <h3 class="zh">【一号人物】</h3>
+                    <h3 class="en">【YIHAO.CHAECTER】</h3>
+                    <span class="zh">采访币圈大佬人物，区块链行业代表</span>
+                    <span class="en">Interview big star and representatives in the blockchain industry</span>
                 </div>
                 <div data-wow-offset="100" data-wow-delay="0.6s" class="wow bounceInDown side-chain-item side-chain-4">
-                    <h3>【一号资本】</h3>
-                    区块链行业投资机构报道，已采访引力资本，红岸基金，科银资本等多家知名投资机构
+                    <h3 class="zh">【一号资本】</h3>
+                    <h3 class="en">【YIHAO.CAPITAL】</h3>
+                    <span class="zh">区块链行业投资机构报道，已采访引力资本，红岸基金，科银资本等多家知名投资机构</span>
+                    <span class="en">Report of blockchain investment institutions，it has already interviewed many famous investment institution like GVC capitical，Redbank capital，Collinstar capital.</span>
                 </div>
-                <div class="one-num">一号财经</div>
+                <div class="one-num">
+                    <span class="">一号财经</span>
+                </div>
             </div>
         </div>
         <div id="grid-list">
-            <div class="title color-1">区块链女司机</div>
+            <div class="title color-1">
+                <span class="zh">区块链女司机</span>
+                <span class="en">Blockchain Lady Driver</span>
+            </div>
             <div class="energy-container  wow bounceInUp">
                 <div class="grid-list-item">
                     <img src="./img/aa.png" alt="">
-                    <span class="grid-list-item-text">大佬说</span>
+                    <span class="grid-list-item-text">
+                        <span class="zh">大佬说</span>
+                        <span class="en">Big shot talk</span>
+                    </span>
                 </div>
                 <div class="grid-list-item">
                     <img src="./img/bb.png" alt="">
-                    <span class="grid-list-item-text">大佬来了</span>
+                    <span class="grid-list-item-text">
+                        <span class="zh">大佬来了</span>
+                        <span class="en">Here comes big shot</span>
+                    </span>
                 </div>
                 <div class="grid-list-item">
                     <img src="./img/cc.png" alt="">
-                    <span class="grid-list-item-text">打开白皮书</span>
+                    <span class="grid-list-item-text">
+                        <span class="zh">打开白皮书</span>
+                        <span class="en">Open Witerpaper</span>
+                    </span>
                 </div>
                 <div class="grid-list-item">
                     <img src="./img/dd.png" alt="">
-                    <span class="grid-list-item-text">女司机开车</span>
+                    <span class="grid-list-item-text">
+                        <span class="zh">女司机开车</span>
+                        <span class="en">Lady driver driving</span>
+                    </span>
                 </div>
                 <div class="grid-list-item">
                     <img src="./img/ee.png" alt="">
-                    <span class="grid-list-item-text">你的声音</span>
+                    <span class="grid-list-item-text">
+                        <span class="zh">你的声音</span>
+                        <span class="en">Your Vioce</span>
+                    </span>
                 </div>
             </div>
         </div>
         <div id="cooperation">
             <div class="energy-container">
                 <div class="title">
-                    合作伙伴
+                  <span class="zh">  合作伙伴</span>
+                    <span class="en">Partner</span>
                 </div>
                 <div class="wow rollIn">
                     <div class="cooperation-item ">
@@ -294,27 +393,39 @@
             <div class="energy-container">
                 <div class="fr code-wrap">
                     <img src="./img/code.png" class="code">
-                    <div style="text-align: center;">关注我们</div>
+                    <div style="text-align: center;">
+                        <span class="zh">关注我们</span>
+                        <span class="en">Follow Us</span>
+                    </div>
                 </div>
                 <div>
                     <div class="call-us-item">
                         <img src="./img/lianxi.png" alt="">
-                        <span class="padding-level">联系我们</span>
+                        <span class="padding-level">
+                            <span class="zh">联系我们</span>
+                            <span class="en">Contact Us</span>
+                        </span>
                         contact@neng-lian.com
                     </div>
                     <div class="call-us-item">
                         <img src="./img/hezuo.png" alt="">
-                        <span class="padding-level">商务合作</span>
+                        <span class="padding-level">
+                            <span class="zh">商务合作</span>
+                            <span class="en">Business Cooperation</span>
+                        </span>
                         contact@neng-lian.com
                     </div>
                     <div class="call-us-item">
                         <img src="./img/jiaru.png" alt="">
-                        <span class="padding-level">加入我们</span>
+                        <span class="padding-level">
+                            <span class="zh">加入我们</span>
+                            <span class="en">Join Us</span>
+                        </span>
                         join@neng-lian.com
                     </div>
                 </div>
                 <div class="call-us-foot">
-                    Copyright 2018 powerlabs All Rights Reserved by杭州能链科技有限公司
+                    Copyright 2018 powerlabs All Rights Reserved by <span class="zh">杭州能链科技有限公司</span><span class="en">Power Links Technology</span>
                 </div>
             </div>
         </div>
@@ -333,13 +444,29 @@
   var widowHieght = screen.height,
    nav = document.querySelector('.nav')
   window.addEventListener('scroll', function (e) {
-    if (widowHieght <= (document.documentElement.scrollTop || document.body.scrollTop)) {
+    if (widowHieght - 180 <= (document.documentElement.scrollTop || document.body.scrollTop)) {
       nav.classList.add('active')
     } else {
       nav.classList.remove('active')
     }
   })
 </script>
+<script>
+  /*切换语言*/
+  let languageFlag = false
+  document.querySelector('.toggleLanguage').addEventListener('click', toggleLanguage)
+  toggleLanguage()
 
+  function toggleLanguage () {
+    languageFlag = !languageFlag
+    if (languageFlag) {
+      document.body.classList.add('zh-show')
+      document.body.classList.remove('en-show')
+    } else {
+      document.body.classList.remove('zh-show')
+      document.body.classList.add('en-show')
+    }
+  }
+</script>
 </body>
 </html>
