@@ -58,13 +58,13 @@ body {
 
 .nav-list {
     float: right;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     line-height: 90px;
 }
 
 .nav-list a {
-    padding: 0 40px;
+    padding: 0 20px;
     position: relative;
     cursor: pointer;
 }

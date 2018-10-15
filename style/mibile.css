@@ -85,9 +85,6 @@ body {
     clear: both;
 }
 
-
-
-
 .por {
     position: relative;
 }
@@ -102,7 +99,7 @@ body {
     font-size: 16px;
     width: auto;
     height: 82px;
-    padding: 0;
+    padding: 20px 10px;
     text-align: left;
 }
 
@@ -231,14 +228,16 @@ body {
 .cooperation-item {
     width: 33.3%;
     box-sizing: border-box;
-    padding:5px;
+    padding: 5px;
     display: inline-block;
     margin-bottom: 20px;
 }
-.cooperation-item img{
+
+.cooperation-item img {
     width: 100%;
 }
-    /*联系我们*/
+
+/*联系我们*/
 #call-us {
     color: #fff;
     font-size: 12px;
@@ -317,17 +316,56 @@ body {
 
 .grid-list-item {
     width: 33%;
-    margin-right:20px;
+    margin-right: 20px;
     margin-bottom: 10px;
     height: auto;
     display: inline-block;
     vertical-align: top;
 }
 
-.code-wrap{
+.code-wrap {
     float: none;
     text-align: center;
 }
-.code{
+
+.code {
     width: 120px;
+}
+
+.application-img {
+    width: 100%;
+    float: none;
+}
+
+.gvc {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.gvc-body-item-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.gvc-body .gvc-body-item {
+    width: 33.3%;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.grid-list-item {
+    display: inline-block;
+    width: 33%;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.grid-list-item:before {
+    content: none;
+
 }
